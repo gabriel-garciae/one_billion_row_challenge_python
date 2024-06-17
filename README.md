@@ -59,16 +59,15 @@ Para executar os scripts deste projeto, você precisará das seguintes bibliotec
 
 ## Resultados
 
-Os testes foram realizados em um laptop equipado com um processador M1 da Apple e 8GB de RAM. As implementações utilizaram abordagens puramente Python, Pandas, Dask, Polars e DuckDB. Os resultados de tempo de execução para processar o arquivo de 1 bilhão de linhas são apresentados abaixo:
+Os testes foram realizados em um laptop equipado com um processador Core I7 da Dell e 32GB de RAM. As implementações utilizaram abordagens puramente Python, Pandas, Dask, Polars e DuckDB. Os resultados de tempo de execução para processar o arquivo de 100 milhões de linhas são apresentados abaixo:
 
 | Implementação | Tempo |
 | --- | --- |
-| Bash + awk | 25 minutos |
-| Python | 20 minutos |
-| Python + Pandas | 263 sec |
-| Python + Dask | 155.62 sec  |
-| Python + Polars | 33.86 sec |
-| Python + Duckdb | 14.98 sec |
+| Python | 102.83 sec |
+| Python + Pandas | 50.19 sec |
+| Python + Dask | 33.57 sec  |
+| Python + Polars | 5.02 sec |
+| Python + Duckdb | 3.43 sec |
 
 Obrigado por [Koen Vossen](https://github.com/koenvo) pela implementação em Polars e [Arthur Julião](https://github.com/ArthurJ) pela implementação em Python e Bash 
 
