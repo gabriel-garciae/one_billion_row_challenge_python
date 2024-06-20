@@ -6,7 +6,7 @@ The initial goal of this project was to process 1 billion rows (~14GB), but due 
 
 This challenge was inspired by the [The One Billion Row Challenge](https://github.com/gunnarmorling/1brc), originally proposed for Java.
 
-The data file consists of temperature measurements from various weather stations. Each record follows the format <string: station name>;<double: measurement>, with the temperature presented to one decimal place.
+The data file consists of temperature measurements from various weather stations. Each record follows the format `<string: station name>;<double: measurement>`, with the temperature presented to one decimal place.
 
 Here are ten sample lines from the file:
 
